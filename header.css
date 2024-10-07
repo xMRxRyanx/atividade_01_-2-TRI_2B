@@ -6,6 +6,7 @@
     background-image: url(Menu.svg);
     /*imagem de fundo*/
     background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
     /**/
 }
