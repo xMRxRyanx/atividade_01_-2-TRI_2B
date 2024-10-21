@@ -27,3 +27,9 @@
 .container__imagem {
     padding: 1em;
 }
+.lista-menu{
+   display: none;/*esconde o elemento*/
+}
+.container__botao:checked~.lista-menu{
+   display: block;
+}
