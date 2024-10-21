@@ -17,11 +17,13 @@
     justify-content: space-between;
     /*espaço entre os itens*/
     align-items: center;
+    position: relative;
 }
 
 .container {
     display: flex;
     align-items: center;
+    top: 100%;
 }
 
 .container__imagem {
@@ -29,6 +31,7 @@
 }
 .lista-menu{
    display: none;/*esconde o elemento*/
+   position: absolute;
 }
 .container__botao:checked~.lista-menu{
    display: block;
